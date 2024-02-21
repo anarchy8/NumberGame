@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NumberGame</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+  <div class="main-container">
+     <h1 id="baslik">GUESS WHAATT?</h1>
+     <p id="altyazi">1 ile 10 arası sayı tahmin et</p>
+     <h3 id="tahmin-box">???</h3> 
+  </div>
+
+ <div class="bottom-div">
+   <div class="girdi-div">
+    <input type="number" id="değer-gir" placeholder="1 ile 10 arası sayı gir " min="1" max="10">
+    <button id="dene-btn">dene</button>
+   </div>
+   <div class="score-div">
+    <p id="sonuc-text">Tahmin et...</p>
+    <p id="tahmin-text">Tahminin:</p> 
+   </div>
+ </div>
+ <button id="restartbtn">restart</button>
+
+<script src="main.js"></script>
+</body>
+</html>

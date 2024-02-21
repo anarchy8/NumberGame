@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'VT323', monospace;
+}
+:root{
+  --succes-renk : #00FF00;
+  --fail-renk : #FF0000;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-color: #d0d0d0;
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#baslik{
+  font-size: 120px;
+}
+#altyazi{
+  font-size: 40px;
+}
+#tahmin-box{
+  font-size: 100px;
+  border: solid 8px black;
+  width: 40%;
+  text-align: center;
+  margin-top: 40px;
+  border-radius: 4px;
+}
+.girdi-div{
+  display: flex;
+  flex-direction: column;
+}
+.bottom-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+  width: 900px;
+  
+}
+#değer-gir{  
+  width: 270px;
+  font-size: 25px;
+  border-radius: 10px; 
+  padding: 11px;
+}
+#dene-btn{
+  margin-top: 20px;
+  font-size: 35px;
+  border-radius: 10px;
+  padding: 8px;
+  width: 50%;
+}
+.score-div{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+#dene-btn:hover{
+ background-color: black;
+ color: white;
+ cursor: pointer;
+}
+#restartbtn{
+  font-size: 35px;
+  border-radius: 10px;
+  padding: 8px;
+  width: 30%;
+}
+#restartbtn:hover{
+  background-color: black;
+ color: white;
+ cursor: pointer;
+}
+#dene-btn:active{
+  background-color: #e57373;
+  color: white;
+  cursor: pointer;
+ }   
+#sonuc-text{
+  font-size: 30px;
+}  
+#skor-text{
+  font-size: 30px;
+}
+#tahmin-text{
+  font-size: 30px;
+}
